@@ -1,0 +1,61 @@
+body {
+    direction: rtl;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: initial;
+    /*background-color: rgb(159, 182, 218);/*
+    /*justify-content: space-around;*/
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    color: black;
+    font-size: 50px;
+    text-align: center;
+    letter-spacing: 2px;
+    margin: 10px 0;
+    text-shadow: 2px 2px rgb(217, 159, 255);
+}
+
+.image {
+    opacity: 0%;
+    margin: 0px;
+    padding: 0px;
+    display: inline;
+    overflow: hidden;
+}
+
+.back {
+    /*display: inline-flex;
+    position: relative;
+    overflow: hidden;*/
+    margin: 2px;
+    padding: 5px;
+    /*background-color: blueviolet;
+    border: 2px solid black;
+    height: 206px;
+    width: 139px;*/
+    background-image: url('https://static.wikia.nocookie.net/hearthstone/images/c/c4/Card_back-Default.png/revision/latest?cb=20140823204025');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 210px;
+    width: 143px;
+    border-radius: 5px;
+}
+
+.front .image {
+    opacity: 100%;
+    margin: 0px;
+    padding: 5px 5px 3px 3px;
+    display: inline-flex;
+    overflow: hidden;
+}
+
+.hidden {
+    visibility: hidden;
+    margin: 1px;
+}
