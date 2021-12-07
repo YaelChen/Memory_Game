@@ -69,3 +69,57 @@ document.querySelectorAll(".back").forEach(item => {
         }
     })
 })
+
+
+/*
+for (var i = 0, cell; cell in cells; i++) {
+    document.table.src = memory_images[i]
+        //var x = memory_images[i]
+        //cell.src = '<img name=a src=images\\Card_back.png onclick="flip(this)" height=210px>'
+    console.log(i)
+    var card = document.createElement("IMG");
+    card.setAttribute("src", memory_images[i]);
+    card.setAttribute("height", "210px");
+    document.cell.appendChild(card);
+
+    //cell.innerHTML = '<img src=images\\Grandma.png height=210px>'
+}
+
+/*var table = document.getElementById("board");
+for (var i = 0, cell; cell = table.cells[i]; i++) {
+    console.log(cell[i]);
+    //src = memory_images[i]
+}
+
+
+function flip() {
+
+}
+
+//classes for back, front and hidden
+//document.a.src = cardBack;
+//document.b.src = memory_images[0];
+
+/*class Card {
+    constructor(front) {
+        this.front = front; //words array
+        this.back = "images\\Card_back.png";
+        this.flip = function() {
+            document.c.src = memory_images[2];
+
+            //var len = this.words.length;
+            //for (var i = 0; i < len; i++) {
+            //    this.words[i] += "$";
+        }
+    }
+
+    //console.log("$" + this.words.join(""));
+
+}*/
+
+
+//var x = new Add("this", "is", "awesome");
+//x.print();
+
+//var game = new Card();
+//game.flip();
