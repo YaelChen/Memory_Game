@@ -13,6 +13,16 @@ body {
 }
 
 h1 {
+    padding-top: 50px;
+    color: black;
+    font-size: 75px;
+    text-align: center;
+    letter-spacing: 5px;
+    margin: 10px 0;
+    text-shadow: 2px 2px rgb(106, 91, 243);
+}
+
+h2 {
     color: black;
     font-size: 50px;
     text-align: center;
@@ -29,13 +39,17 @@ h1 {
     overflow: hidden;
 }
 
+
+/*the back of the card when it's upside down*/
+
 .back {
     /*display: inline-flex;
     position: relative;
     overflow: hidden;*/
     margin: 2px;
     padding: 5px;
-    /*background-color: blueviolet;
+    /*optional background instead of an image as followed:
+    background-color: blueviolet;
     border: 2px solid black;
     height: 206px;
     width: 139px;*/
@@ -47,6 +61,9 @@ h1 {
     border-radius: 5px;
 }
 
+
+/*the front of the card when the content is shown*/
+
 .front .image {
     opacity: 100%;
     margin: 0px;
@@ -55,7 +72,23 @@ h1 {
     overflow: hidden;
 }
 
+
+/*the hidden card after finding it's match*/
+
 .hidden {
     visibility: hidden;
     margin: 1px;
+}
+
+
+/*refresh button*/
+
+button {
+    padding: 2px 5px;
+    margin-top: 10px;
+    background: rgb(96, 78, 255, 0.7);
+    font-size: 20px;
+    color: black;
+    border: 1px solid salmon;
+    border-radius: 5px;
 }
