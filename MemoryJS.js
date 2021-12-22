@@ -69,7 +69,7 @@ document.querySelectorAll(".back").forEach(item => {
             //makes an array of class back: if there's no unrevealed cards: adds a win text instead of table
             let backs = document.getElementsByClassName("back");
             if (backs.length === 0) {
-                document.getElementById("board").innerHTML = "<h1>כל הכבוד!</h1>";
+                setTimeout(() => document.getElementById("board").innerHTML = "<h1>כל הכבוד!</h1>", 750);
             }
 
         }
